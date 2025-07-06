@@ -37,11 +37,7 @@ GPT-4 improved this by:
 - Tokenization is not “just preprocessing” — it's how LLMs *see* language.
 - Byte Pair Encoding (BPE) is central to vocabulary compression.
 - Building from scratch helps understand model context, hallucination triggers, and input optimization.
-
-## 📓 Colab Notebook
-
-👉 [View on Google Colab](https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing)
-
+ 
 ## 📚 References
 
 - [@AndrejKarpathy – YouTube](https://www.youtube.com/@AndrejKarpathy)
