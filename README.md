@@ -1,10 +1,9 @@
+
 # GPT Tokenizer from Scratch 🧠🔤
 
-A hands-on implementation of a **GPT-style tokenizer** using Byte Pair Encoding (BPE), built from scratch in Python — inspired by [Andrej Karpathy's](https://www.youtube.com/@karpathy) walkthrough on how GPT tokenization works.
+A hands-on implementation of a **GPT-style tokenizer** using Byte Pair Encoding (BPE), built from scratch in Python — inspired by [@AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy)'s walkthrough on how GPT tokenization works.
 
 This project aims to demystify how GPT and other LLMs process text before feeding it into the model — showing how raw bytes are merged into meaningful tokens through BPE.
-
----
 
 ## 🔍 Project Goals
 
@@ -12,9 +11,6 @@ This project aims to demystify how GPT and other LLMs process text before feedin
 - Implement BPE merging logic manually
 - Explore the differences between GPT-2 and GPT-4 tokenization
 - Learn why inefficient tokenization can lead to LLM hallucinations
-
----
-
 
 ## 🚀 Features
 
@@ -60,4 +56,3 @@ Made with curiosity by [Jayant Bisht](https://github.com/jayant1554)
 ## 🏷 Tags
 
 `#GPT` `#Tokenizer` `#BPE` `#LLM` `#DeepLearning` `#Python` `#FromScratch` `#Colab` `#NLP`
-"""
