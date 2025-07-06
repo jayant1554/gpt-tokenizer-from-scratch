@@ -1,9 +1,10 @@
-
 # GPT Tokenizer from Scratch 🧠🔤
 
-A hands-on implementation of a **GPT-style tokenizer** using Byte Pair Encoding (BPE), built from scratch in Python — inspired by [Sam Witteveen's](https://www.youtube.com/@SamWitteveenAI) excellent tutorial ["Let’s Build the GPT Tokenizer"](https://youtu.be/zduSFxRajkE?si=WnplvHI9X3ttASJ5).
+A hands-on implementation of a **GPT-style tokenizer** using Byte Pair Encoding (BPE), built from scratch in Python — inspired by [Andrej Karpathy's](https://www.youtube.com/@karpathy) walkthrough on how GPT tokenization works.
 
 This project aims to demystify how GPT and other LLMs process text before feeding it into the model — showing how raw bytes are merged into meaningful tokens through BPE.
+
+---
 
 ## 🔍 Project Goals
 
@@ -11,6 +12,9 @@ This project aims to demystify how GPT and other LLMs process text before feedin
 - Implement BPE merging logic manually
 - Explore the differences between GPT-2 and GPT-4 tokenization
 - Learn why inefficient tokenization can lead to LLM hallucinations
+
+---
+
 
 ## 🚀 Features
 
@@ -44,9 +48,9 @@ GPT-4 improved this by:
 
 ## 📚 References
 
-- [Let's Build the GPT Tokenizer – YouTube](https://youtu.be/zduSFxRajkE?si=WnplvHI9X3ttASJ5)
+- [@AndrejKarpathy – YouTube](https://www.youtube.com/@AndrejKarpathy)
+- [Karpathy’s minBPE GitHub](https://github.com/karpathy/minbpe)
 - [OpenAI's tiktoken GitHub](https://github.com/openai/tiktoken)
-- [Karpathy: BPE Tokenizer in 100 lines](https://github.com/karpathy/minbpe)
 - [LessWrong: Anomalous Tokens in GPT](https://www.lesswrong.com/posts/ChtGdxk9mwZ2Rxogt/smartyheadercode-anomalous-tokens-for-gpt3-5-and-gpt-4-1)
 
 ## 📬 Contact
@@ -57,12 +61,3 @@ Made with curiosity by [Jayant Bisht](https://github.com/jayant1554)
 
 `#GPT` `#Tokenizer` `#BPE` `#LLM` `#DeepLearning` `#Python` `#FromScratch` `#Colab` `#NLP`
 """
-
-# Save to file
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
-
-
